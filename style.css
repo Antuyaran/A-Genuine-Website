@@ -1,0 +1,52 @@
+/* CSS for layout and styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 600px;
+    text-align: center;
+    border: 1px solid #000;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.overview {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.image-container {
+    margin: 20px 0;
+}
+
+.main-image {
+    width: 300px;   /* 设置图片宽度为 300 像素 */
+    height: auto;   /* 保持宽高比，让高度自动适应 */
+    cursor: pointer; /* 鼠标悬停时变成手形 */
+}
+
+footer {
+    border-top: 1px solid #000;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 14px;
+}

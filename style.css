@@ -7,14 +7,14 @@ body {
     flex-direction: column;
     margin: 0;            /* 去掉默认的外边距 */
     padding: 0;           /* 去掉默认的内边距 */
-    min-height: 100vh;    /* 页面高度至少为整个屏幕高度 */
+    min-height: 300vh;    /* 页面高度至少为整个屏幕高度 */
     background-color: #f8f8f8;
 }
 
 /* 调整主要内容的容器，去掉多余空白 */
 .container {
     width: 95%;            /* 宽度设置为95%，尽量让内容占据更多水平空间 */
-    max-width: 1200px;     /* 最大宽度可以扩大一些，以填满大屏幕 */
+    max-width: 2000px;     /* 最大宽度可以扩大一些，以填满大屏幕 */
     text-align: center;
     border: 1px solid #000;
     padding: 10px;         /* 减小内边距，减少上下的空白 */
@@ -31,12 +31,12 @@ header {
 }
 
 header h1 {
-    font-size: 22px;      /* 增加标题字号，稍微让它更醒目 */
+    font-size: 40px;      /* 增加标题字号，稍微让它更醒目 */
     margin: 0;            /* 去掉 margin 让它紧贴 container */
 }
 
 .overview {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -51,7 +51,7 @@ header h1 {
 }
 
 .main-image {
-    width: 200px;          /* 可以适当增加一点图片宽度以填满页面 */
+    width: 230px;          /* 可以适当增加一点图片宽度以填满页面 */
     height: auto;          /* 保持图片比例 */
     cursor: pointer;       /* 鼠标悬停时显示手形，增加交互感 */
     transition: transform 0.3s ease; /* 增加鼠标悬停的动画效果 */

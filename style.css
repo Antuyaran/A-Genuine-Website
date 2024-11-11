@@ -1,4 +1,4 @@
-/* 设置整体页面样式，去掉多余的边距 */
+/* 去掉页面整体的默认外边距和内边距 */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -11,28 +11,28 @@ body {
     background-color: #f8f8f8;
 }
 
-/* 调整主要内容的容器，尽量让它更加紧凑 */
+/* 调整主要内容的容器，去掉多余空白 */
 .container {
-    width: 90%;            /* 调整宽度为 90%，让页面更加紧凑 */
-    max-width: 800px;      /* 最大宽度保持为 800 像素 */
+    width: 95%;            /* 宽度设置为95%，尽量让内容占据更多水平空间 */
+    max-width: 1200px;     /* 最大宽度可以扩大一些，以填满大屏幕 */
     text-align: center;
     border: 1px solid #000;
-    padding: 20px;
+    padding: 10px;         /* 减小内边距，减少上下的空白 */
     background-color: #fff;
 }
 
-/* 调整 header 样式 */
+/* 调整 header 的样式，确保它靠近顶部 */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;  /* 减小 header 底部的空白 */
 }
 
 header h1 {
-    font-size: 20px;
-    margin: 0;
+    font-size: 22px;      /* 增加标题字号，稍微让它更醒目 */
+    margin: 0;            /* 去掉 margin 让它紧贴 container */
 }
 
 .overview {
@@ -40,20 +40,20 @@ header h1 {
     font-weight: bold;
 }
 
-/* 图片容器样式，确保多张图片可以并排显示 */
+/* 图片容器样式，减少间距，使得图片更加紧凑 */
 .image-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;  /* 使图片自动换行 */
-    gap: 20px;        /* 设置图片之间的间距 */
-    margin: 20px 0;
+    flex-wrap: wrap;       /* 图片自动换行 */
+    gap: 10px;             /* 减少图片之间的间距，让它们更加紧凑 */
+    margin: 10px 0;        /* 减少整个图片部分上下的空白 */
 }
 
 .main-image {
-    width: 150px;     /* 设置图片宽度为 150 像素 */
-    height: auto;     /* 保持图片比例 */
-    cursor: pointer;  /* 鼠标悬停时显示手形，增加交互感 */
+    width: 200px;          /* 可以适当增加一点图片宽度以填满页面 */
+    height: auto;          /* 保持图片比例 */
+    cursor: pointer;       /* 鼠标悬停时显示手形，增加交互感 */
     transition: transform 0.3s ease; /* 增加鼠标悬停的动画效果 */
 }
 
@@ -61,10 +61,11 @@ header h1 {
     transform: scale(1.1); /* 鼠标悬停时放大图片 */
 }
 
+/* 调整 footer 样式，减少上下空白 */
 footer {
     border-top: 1px solid #000;
     width: 100%;
-    margin-top: 20px;
-    padding-top: 10px;
+    margin-top: 10px;      /* 减少顶部的空白 */
+    padding-top: 5px;      /* 减少内边距 */
     font-size: 14px;
 }

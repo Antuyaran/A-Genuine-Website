@@ -16,7 +16,7 @@ body {
     width: 95%;            /* 宽度设置为95%，尽量让内容占据更多水平空间 */
     max-width: 2000px;     /* 最大宽度可以扩大一些，以填满大屏幕 */
     text-align: center;
-    border: 1px solid #ff1616;
+    border: 4px solid #ff1616;
     padding: 20px;         /* 减小内边距，减少上下的空白 */
     background-color: #fff;
     flex-grow: 1;        /* 使用 flex-grow 撑开剩余空间 */

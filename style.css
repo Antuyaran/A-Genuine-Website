@@ -16,7 +16,7 @@ body {
     width: 95%;            /* 宽度设置为95%，尽量让内容占据更多水平空间 */
     max-width: 2000px;     /* 最大宽度可以扩大一些，以填满大屏幕 */
     text-align: center;
-    border: 1px solid #000;
+    border: 1px solid #ff1616;
     padding: 20px;         /* 减小内边距，减少上下的空白 */
     background-color: #fff;
     flex-grow: 1;        /* 使用 flex-grow 撑开剩余空间 */
@@ -29,11 +29,13 @@ header {
     align-items: center;
     width: 100%;
     margin-bottom: 50px;  /* 增大 header 底部的空白 */
+    color: #ff0000; 
 }
 
 header h1 {
     font-size: 40px;      /* 增加标题字号，稍微让它更醒目 */
     margin: 0;            /* 去掉 margin 让它紧贴 container */
+    color: #ff0000; 
 }
 
 .overview {
@@ -64,7 +66,7 @@ header h1 {
 
 /* 调整 footer 样式，减少上下空白 */
 footer {
-    border-top: 1px solid #000;
+    border-top: 1px solid #ff0000;
     width: 100%;
     margin-top: 10px;      /* 减少顶部的空白 */
     padding-top: 5px;      /* 减少内边距 */

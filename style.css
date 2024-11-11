@@ -1,6 +1,8 @@
 /* 去掉页面整体的默认外边距和内边距 */
 body {
     font-family: Arial, sans-serif;
+    font-style: italic;  /* 设置为斜体 */
+    color: #ff1616;          /* 颜色是可选的，做个对比 */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +70,7 @@ header h1 {
 footer {
     border-top: 4px solid #ff0000;
     width: 100%;
-    margin-top: 10px;      /* 减少顶部的空白 */
-    padding-top: 5px;      /* 减少内边距 */
-    font-size: 14px;
+    margin-top: 20px;      /* 减少顶部的空白 */
+    padding-top: 10px;      /* 减少内边距 */
+    font-size: 15px;
 }

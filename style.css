@@ -66,7 +66,7 @@ header h1 {
 
 /* 调整 footer 样式，减少上下空白 */
 footer {
-    border-top: 1px solid #ff0000;
+    border-top: 4px solid #ff0000;
     width: 100%;
     margin-top: 10px;      /* 减少顶部的空白 */
     padding-top: 5px;      /* 减少内边距 */

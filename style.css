@@ -155,7 +155,7 @@ footer {
 }
 
 .search-input {
-    margin: 20px 0;
+    margin: 30px 0;
     width: 50%; /* 搜索输入框的宽度 */
     height: 50px; /* 设置搜索框的高度 */
     padding: 10px 20px; /* 内边距，确保和按钮保持一致 */

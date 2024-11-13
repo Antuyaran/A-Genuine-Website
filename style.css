@@ -107,6 +107,17 @@ footer {
 
 }
 
+/* 悬浮广告4的样式（右侧底部） */
+#floatingAd4 {
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    transform: translate(0%, 0%);
+    z-index: 10000;
+    width: 220px;
+
+}
+
 /* 广告中的图片（GIF） */
 .floating-ad img {
     width: 100%;
@@ -149,7 +160,7 @@ footer {
     border: 4px solid #ffd9d9; /* 加粗边框厚度，改为3px */
     border-radius: 5px 5px 5px 5px; /* 两侧圆角 */
     outline: none; /* 移除焦点边框 */
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .search-btn {
@@ -168,18 +179,3 @@ footer {
     background-color: #ff465e; /* 悬停时按钮变色 */
 }
 
-.bouncing-ad {
-    position: absolute;
-    bottom: 0; /* 初始位置在左下角 */
-    left: 0;
-    width: 150px; /* 设置广告的宽度 */
-    height: 150px; /* 设置广告的高度 */
-    background-color: #ffcccc;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* 给广告加阴影 */
-    border: 1px solid #ff4c4c;
-}
-
-.bouncing-ad img {
-    width: 100%;
-    height: 100%;
-}

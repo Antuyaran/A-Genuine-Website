@@ -77,12 +77,12 @@ footer {
 
 /* 悬浮广告1的样式（页面左上角） */
 #floatingAd1 {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 10000;
-    width: 200px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    position: fixed;  /* 固定在视窗中，不随滚动条移动 */
+    top: 0%;         /* 定位到页面的中间位置 */
+    left: 0%;        /* 居中对齐 */
+    transform: translate(0%, 0%); /* 确保广告在屏幕正中央 */
+    z-index: 10000;   /* 确保它始终在页面最上方显示 */
+   
 }
 
 /* 悬浮广告2的样式（页面右下角） */
@@ -123,8 +123,8 @@ footer {
     position: absolute;
     top: 5px;
     right: 5px;
-    background: #ff4c4c;
-    color: white;
+    background: #ffffff;
+    color: rgb(255, 0, 0);
     border: none;
     font-size: 16px;
     cursor: pointer;
@@ -133,5 +133,5 @@ footer {
 }
 
 .close-btn:hover {
-    background: #e60000;
+    background: #ffffff;
 }

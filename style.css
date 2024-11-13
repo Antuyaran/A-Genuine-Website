@@ -150,7 +150,7 @@ footer {
 .search-input {
     width: 50%; /* 搜索输入框的宽度 */
     height: 50px; /* 设置搜索框的高度 */
-    padding: 10px; /* 内边距，确保和按钮保持一致 */
+    padding: 10px 20px; /* 内边距，确保和按钮保持一致 */
     border: 3px solid #ffd9d9; /* 加粗边框厚度，和按钮保持一致 */
     border-radius: 5px 0 0 5px; /* 左侧圆角 */
     outline: none; /* 移除焦点边框 */

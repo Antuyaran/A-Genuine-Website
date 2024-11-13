@@ -68,5 +68,12 @@
         <button class="close-btn" onclick="closeAd('floatingAd3')">✖</button>
         <img src="images/gif03.gif" alt="广告GIF3">
     </div>
+    <script>
+        // 关闭广告弹窗的 JavaScript
+        function closeAd(adId) {
+            var ad = document.getElementById(adId);
+            ad.style.display = "none";
+        }
+    </script>
 </body>
 </html>

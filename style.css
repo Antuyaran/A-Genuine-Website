@@ -74,3 +74,40 @@ footer {
     padding-top: 10px;      /* 减少内边距 */
     font-size: 15px;
 }
+
+/* 悬浮广告 GIF 的样式 */
+.floating-ad {
+    position: fixed;  /* 固定在视窗中，不随滚动条移动 */
+    top: 0%;         /* 定位到页面的中间位置 */
+    left: 0%;        /* 居中对齐 */
+    transform: translate(0%, 0%); /* 确保广告在屏幕正中央 */
+    z-index: 10000;   /* 确保它始终在页面最上方显示 */
+    background-color: rgba(255, 255, 255, 0.9); /* 半透明背景，让它更显眼 */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* 加阴影让它更突出 */
+    border: 1px solid #000; /* 给广告加一个边框 */
+    padding: 5px;           /* 增加内边距以避免内容直接靠近边框 */
+}
+
+/* 广告中的图片（GIF） */
+.floating-ad img {
+    width: 300px;      /* 可以根据需要调整 GIF 的大小 */
+    height: auto;      /* 保持 GIF 的纵横比例 */
+}
+
+/* 关闭按钮样式 */
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: #ff4c4c;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.close-btn:hover {
+    background: #e60000; /* 鼠标悬停时的颜色变化 */
+}

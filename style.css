@@ -114,7 +114,7 @@ footer {
     right: 0%;
     transform: translate(0%, 0%);
     z-index: 10000;
-    width: 220px;
+    width: 350px;
 
 }
 
@@ -129,7 +129,7 @@ footer {
     position: absolute;
     top: 5px;
     right: 5px;
-    background: #ffffff;
+    background: #bfbfbf;
     color: #ff8e9d;
     border: none;
     font-size: 16px;
@@ -166,7 +166,7 @@ footer {
 .search-btn {
     height: 50px; /* 设置按钮的高度与搜索框一致 */
     padding: 10px 20px; /* 调整内边距，以使按钮的高度更一致 */
-    border: 3px solid #ff8e9d; /* 加粗边框厚度，与搜索框保持一致 */
+    border: 4px solid #ff8e9d; /* 加粗边框厚度，与搜索框保持一致 */
     border-left: none; /* 去除与输入框的重复边框 */
     background-color: #ff8e9d; /* 按钮背景颜色 */
     color: #fff;

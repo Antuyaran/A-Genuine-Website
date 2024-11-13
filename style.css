@@ -45,6 +45,14 @@ header h1 {
     font-weight: bold;
 }
 
+.section-header {
+    text-align: center; /* 标题居中 */
+    font-size: 24px; /* 设置标题的字体大小 */
+    font-weight: bold; /* 让标题加粗 */
+    color: #ff8e9d; /* 设定你喜欢的颜色，和搜索按钮搭配 */
+    margin: 20px 0; /* 上下增加一些空间，让内容更分明 */
+}
+
 /* 图片容器样式，减少间距，使得图片更加紧凑 */
 .image-container {
     display: flex;
@@ -148,6 +156,7 @@ footer {
 }
 
 .search-input {
+    margin: 20px 0;
     width: 50%; /* 搜索输入框的宽度 */
     height: 50px; /* 设置搜索框的高度 */
     padding: 10px 20px; /* 内边距，确保和按钮保持一致 */
@@ -158,6 +167,7 @@ footer {
 }
 
 .search-btn {
+    margin: 20px 0;
     height: 50px; /* 设置按钮的高度与搜索框一致 */
     padding: 10px 20px; /* 内边距，确保按钮看起来对称 */
     border: 3px solid #ff8e9d; /* 加粗边框厚度，确保与搜索框一致 */
@@ -171,4 +181,5 @@ footer {
 .search-btn:hover {
     background-color: #ff465e; /* 悬停时按钮变色 */
 }
+
 

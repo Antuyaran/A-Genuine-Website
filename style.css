@@ -75,31 +75,18 @@ footer {
     font-size: 15px;
 }
 
-/* 悬浮广告1的样式（页面左上角） */
+/* 悬浮广告1的样式（页面左侧） */
 #floatingAd1 {
     position: fixed;  /* 固定在视窗中，不随滚动条移动 */
     top: 0%;         /* 定位到页面的中间位置 */
     left: 0%;        /* 居中对齐 */
     transform: translate(0%, 0%); /* 确保广告在屏幕正中央 */
     z-index: 10000;   /* 确保它始终在页面最上方显示 */
-   
-}
-
-/* 悬浮广告2的样式（页面右下角） */
-#floatingAd2 {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    z-index: 10000;
     width: 150px;
-    background-color: rgba(255, 255, 255, 0.9);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-    padding: 5px;
-    border: 1px solid #000;
 }
 
-/* 悬浮广告3的样式（页面中间） */
-#floatingAd3 {
+/* 悬浮广告2的样式（页面中间） */
+#floatingAd2 {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -108,8 +95,17 @@ footer {
     width: 200px;
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-    padding: 5px;
-    border: 1px solid #000;
+}
+
+/* 悬浮广告3的样式（右侧） */
+#floatingAd3 {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    transform: translate(0%, 0%);
+    z-index: 10000;
+    width: 150px;
+
 }
 
 /* 广告中的图片（GIF） */
